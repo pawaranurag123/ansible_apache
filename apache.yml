@@ -15,3 +15,13 @@
       copy:
         src: index.html
         dest: /var/www/html/
+    - name: download nexus artifact
+      maven_artifact:
+        group_id: com.io
+        version: 1.14-SNAPSHOT
+        extension: jar
+        artifact_id: exhibit
+        repository_url: http://34.245.190.241:8081/repository/demo-snapshots/
+        username: admin
+        password: admin123
+        dest: /var/www/
