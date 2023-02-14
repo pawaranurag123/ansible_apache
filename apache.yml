@@ -21,8 +21,6 @@
       copy:
         src: /tmp/exhibit.jar
         dest: /var/www/
-  
-    mode: '0644'
     - name: Install packages
       yum:
         name: "httpd"
