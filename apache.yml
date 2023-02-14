@@ -15,6 +15,8 @@
       copy:
         src: index.html
         dest: /var/www/html/
+- hosts: localhost
+  tasks:
     - name: download nexus artifact
       maven_artifact:
         group_id: com.io
@@ -24,4 +26,4 @@
         repository_url: http://34.245.190.241:8081/repository/demo-snapshots/
         username: admin
         password: admin123
-        dest: /var/www/
+        dest: /var/opt
