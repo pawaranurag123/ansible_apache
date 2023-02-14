@@ -16,6 +16,7 @@
         src: index.html
         dest: /var/www/html/
 - hosts: localhost
+  become: True
   tasks:
     - name: download nexus artifact
       maven_artifact:
