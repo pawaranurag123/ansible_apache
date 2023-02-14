@@ -26,4 +26,4 @@
         repository_url: http://34.245.190.241:8081/repository/demo-snapshots/
         username: admin
         password: admin123
-        dest: /var/opt
+        dest: /opt
