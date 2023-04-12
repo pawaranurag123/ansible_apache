@@ -7,7 +7,7 @@
         version: latest
         extension: jar
         artifact_id: lbs_ds_sender
-        repository_url: http://http://63.32.43.9:8081/repository/work-maven-repo/
+        repository_url: http://63.32.43.9:8081/repository/work-maven-repo/
         username: admin
         password: admin
         dest: /tmp/
