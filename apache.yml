@@ -3,13 +3,13 @@
   tasks:
     - name: download nexus artifact
       maven_artifact:
-        group_id: com.io
+        group_id: oi
         version: latest
         extension: jar
-        artifact_id: exhibit
-        repository_url: http://34.245.190.241:8081/repository/demo-snapshots/
+        artifact_id: lbs_ds_sender
+        repository_url: http://http://63.32.43.9:8081/repository/work-maven-repo/
         username: admin
-        password: admin123
+        password: admin
         dest: /tmp/
 
 
