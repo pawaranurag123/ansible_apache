@@ -1,5 +1,5 @@
 
-- hosts: aws_ec2 
+- hosts: target_server
   become: True
   tasks:
     - name: Turn on the dags
