@@ -1,0 +1,7 @@
+
+- hosts: aws_ec2 
+  become: True
+  tasks:
+    - name: Turn on the dags
+      shell: airflow dags pause dataset_produces_2
+      
