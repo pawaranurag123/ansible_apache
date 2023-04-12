@@ -19,7 +19,7 @@
   tasks:
     - name: copy jar to target
       copy:
-        src: /tmp/exhibit.jar
+        src: /tmp/lbs_ds_sender.jar
         dest: /var/www/
     - name: Install packages
       yum:
